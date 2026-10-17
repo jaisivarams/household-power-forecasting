@@ -1,0 +1,36 @@
+{
+  "target": "Global_active_power",
+  "raw_features": [
+    "Global_active_power",
+    "Global_reactive_power",
+    "Voltage",
+    "Global_intensity",
+    "Sub_metering_1",
+    "Sub_metering_2",
+    "Sub_metering_3"
+  ],
+  "window": 24,
+  "horizon": 1,
+  "min": {
+    "Global_active_power": 0.13873333333333332,
+    "Global_reactive_power": 0.021033333333333334,
+    "Voltage": 225.8345,
+    "Global_intensity": 0.6266666666666667,
+    "Sub_metering_1": 0.0,
+    "Sub_metering_2": 0.0,
+    "Sub_metering_3": 0.0
+  },
+  "range": {
+    "Global_active_power": 6.3572999999999995,
+    "Global_reactive_power": 0.6330333333333333,
+    "Voltage": 24.50800000000001,
+    "Global_intensity": 27.573333333333334,
+    "Sub_metering_1": 48.36666666666667,
+    "Sub_metering_2": 46.43333333333333,
+    "Sub_metering_3": 19.733333333333334
+  },
+  "test_start": "2008-08-26 16:00:00",
+  "data_end": "2008-12-13 21:00:00",
+  "test_mae": 0.3593598008155823,
+  "test_rmse": 0.5560171008110046
+}
